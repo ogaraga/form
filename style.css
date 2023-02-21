@@ -2,8 +2,11 @@
     padding: 0%;
     margin: 0%;
 }
+
 body{
-    background-image: url(darkviolet.jpg);
+    background-image: url(project.jpg), url(darkviolet.jpg);
+    background-position: left 50%, right 50%;
+    background-repeat: no-repeat, repeat;
 }
 
 main{
@@ -72,6 +75,7 @@ main{
     margin-right: 60px;
     margin-left: 40px;
 }
+
 
 .yep img{
     display: flex;

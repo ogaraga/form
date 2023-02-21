@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(darkviolet.jpg);
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.yap{
+    color:white
+}
+.yap img{
+    background-color: lightcoral;
+    border-radius: 30px;
+    margin-left: -65px;
+    margin-top: 60px;
+}
+
+.yap h1{
+    margin-top: -40px;
+    margin-left: -15px;
+}
+.yap label,input,button{
+    margin-left: 63px;
+    margin-bottom: -110px;
+    margin-top: 100px;
+    display: flex;
+    text-align: justify;
+}
+
+.yap input{
+    background-color: black;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+.yap,input, button{
+    margin-left: 60px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.yap button{
+    text-align: center;
+    color: white;
+    background-color: orange;
+    padding-right: 165px;
+    margin-left: 30px;
+}
+
+   
+.yap p{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -60px;
+
+}
+
+.yap p ~input{
+    margin-bottom: -0px;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20PX light;
+    padding:10px 30px 10px 30px;
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.yep img{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+.yep h2{
+    margin-top: 400px;
+    margin-left: 20px;
+    color: white;
+}
+
+.yep input{
+    margin-top: -5px;
+    font-weight: bold;
+    background-color: black;
+}
+
+footer {
+    color: white;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+footer  p{
+    color:red;
+    font-weight: bold;
+    margin-right: -40px;
+}
+footer #span{
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+}
